@@ -21,14 +21,13 @@ a {
   z-index: -1;
   -webkit-animation: introLoad 2.5s forwards;
           animation: introLoad 2.5s forwards;
+  overflow: hidden;
 }
 
 .logo {
   color: white;
   font-weight: bold;
-
 }
-
 
 nav {
   position: fixed;
